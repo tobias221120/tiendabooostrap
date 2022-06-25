@@ -1,0 +1,56 @@
+.nav-item .nav-link:hover{
+    color:rgba(255, 0, 0, 0.39);
+}
+.footer{
+    background-color: rgb(4, 2, 5);
+}
+.Copyright{
+    background-color: rgb(0, 0, 0);
+}
+
+.card{
+    width:300px;
+    border-color: black;
+}
+.btn{
+    background-color: brown;
+    width: 100%;
+    font-size:20px ;
+
+}
+.btn:hover{
+    background:rgba(160, 21, 21, 0.795);
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #b58d7a;
+    position: relative;
+    padding-bottom: 4em;
+    
+   
+}
+.precio{
+    font-family: fantasy;
+}
+
+.card-body{
+    box-shadow: hsla(0, 0%, 0%, 0.56) 0px 22px 70px 4px;
+    transform: all 2s;
+}
+.footer{
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 980px){
+    .tarjeta{
+        display: flex;
+        justify-content: center;
+       
+    }
+}
